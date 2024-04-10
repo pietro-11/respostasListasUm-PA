@@ -30,10 +30,13 @@ public class Triangulo {
 		this.ladoC = c;
 	}
 	
+		public double calcularArea(double base, double altura) {
+			double area = (base * altura)/2;
+			return area;
+		}
 		
-		public double calcPerimetro() {
+		public double calcularPerimetro() {
 			double peri = (ladoA + ladoB + ladoC);
 			return peri;
 		}
 }
-
